@@ -66,3 +66,8 @@ Navbar.propTypes = {
     title: PropTypes.string.isRequired,
     about: PropTypes.string,
 };
+
+Navbar.defaultProps = {
+    title: "harumi",
+    about: "anime watch",
+};
