@@ -34,7 +34,7 @@ export default function Navbar(props) {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link active" href="/">
-                                About
+                                {props.about}
                             </a>
                         </li>
                         <li className="nav-item">
