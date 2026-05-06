@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 export default function TextForm(props) {
+    const [text, setText] = useState("set your text over here");
     return (
         <>
             <h1>{props.title}</h1>
