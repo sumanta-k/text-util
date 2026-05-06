@@ -3,7 +3,7 @@ export default function TextForm(props) {
     const [text, setText] = useState("set your text over here");
     return (
         <>
-            <h1>{props.title}</h1>
+            <h3>{props.title}</h3>
             <div className="mb-3">
                 <label
                     htmlFor="exampleFormControlTextarea1"
