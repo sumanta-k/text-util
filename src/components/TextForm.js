@@ -15,7 +15,7 @@ export default function TextForm(props) {
                     rows="13"
                 ></textarea>
             </div>
-            <button type="button" class="btn btn-primary">
+            <button type="button" className="btn btn-primary">
                 Convert to UpperCase
             </button>
         </>
