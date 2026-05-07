@@ -5,6 +5,10 @@ export default function TextForm(props) {
         const newText = text.toUpperCase();
         setText(newText);
     };
+    const handleOnChange = (event) => {
+        setText(event.target.value);
+        // console.log("on change event happened");
+    };
     const [text, setText] = useState("Enter TExt 2");
     return (
         <>
