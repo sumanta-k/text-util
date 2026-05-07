@@ -20,6 +20,8 @@ export default function TextForm(props) {
                     className="form-control"
                     id="exampleFormControlTextarea1"
                     rows="13"
+                    value={text}
+                    onChange={handleOnChange}
                 ></textarea>
             </div>
             <button
