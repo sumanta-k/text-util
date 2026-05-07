@@ -37,20 +37,13 @@ export default function TextForm(props) {
                     Convert to UpperCase
                 </button>
             </div>
-                    className="form-control"
-                    id="exampleFormControlTextarea1"
-                    rows="13"
-                    value={text}
-                    onChange={handleOnChange}
-                ></textarea>
+
+            <div className="container my-3">
+                <h2>Text Summary</h2>
+                <p>
+                    {text.split(" ").length} words and {text.length} characters
+                </p>
             </div>
-            <button
-                type="button"
-                className="btn btn-primary"
-                onClick={handleUpClick}
-            >
-                Convert to UpperCase
-            </button>
         </>
     );
 }
