@@ -15,7 +15,7 @@ export default function TextForm(props) {
         setText(newText);
     };
 
-    const [text, setText] = useState("Enter Your Content Here ");
+    const [text, setText] = useState("");
     return (
         <>
             <div className="container">
