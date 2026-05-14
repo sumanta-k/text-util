@@ -72,7 +72,10 @@ export default function TextForm(props) {
                 </button>
             </div>
 
-            <div className="container my-3">
+            <div
+                className="container my-3"
+                style={{ color: props.mode === "dark" ? "white" : "black" }}
+            >
                 <h2>Text Summary</h2>
                 <p>
                     {text.split(" ").length} words and {text.length} characters
