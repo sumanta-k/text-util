@@ -22,7 +22,10 @@ export default function TextForm(props) {
     const [text, setText] = useState("");
     return (
         <>
-            <div className="container">
+            <div
+                className="container"
+                style={{ color: props.mode === "dark" ? "white" : "black" }}
+            >
                 <h3>{props.title}</h3>
                 <div className="mb-3">
                     <label
