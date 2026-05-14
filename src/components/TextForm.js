@@ -42,6 +42,14 @@ export default function TextForm(props) {
                 >
                     Convert to UpperCase
                 </button>
+
+                <button
+                    type="button"
+                    className="mx-3 btn btn-success"
+                    onClick={handleLowerCase}
+                >
+                    Convert to LowerCase
+                </button>
             </div>
 
             <div className="container my-3">
