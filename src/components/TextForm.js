@@ -9,6 +9,12 @@ export default function TextForm(props) {
         setText(event.target.value);
         // console.log("on change event happened");
     };
+
+    const handleLowerCase = () => {
+        let newText = text.toLowerCase();
+        setText(newText);
+    };
+
     const [text, setText] = useState("Enter TExt 2");
     return (
         <>
