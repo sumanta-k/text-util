@@ -15,7 +15,12 @@ function App() {
     };
     return (
         <>
-            <Navbar title="TextUtils" about="About" />
+            <Navbar
+                title="TextUtils"
+                about="About"
+                mode={mode}
+                toggleMode={toggleMode}
+            />
             <div className="container my-3">
                 <TextForm
                     heading="Put Text Over Here"
