@@ -55,37 +55,13 @@ export default function Navbar(props) {
                                 className="btn btn-outline-success"
                                 type="submit"
                             >
-                                Home
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link active" href="/">
-                                {props.about}
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link active" href="/">
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-                    <form className="d-flex" role="search">
-                        <input
-                            className="form-control me-2"
-                            type="search"
-                            placeholder="Search"
-                            aria-label="Search"
-                        />
-                        <button
-                            className="btn btn-outline-success"
-                            type="submit"
-                        >
-                            Search
-                        </button>
-                    </form>
+                                Search
+                            </button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     );
 }
 Navbar.propTypes = {
