@@ -47,6 +47,9 @@ export default function TextForm(props) {
                     How Long time will take to read :{" "}
                     {0.008 * text.split(" ").length}
                 </p>
+
+                <h2>Preview: </h2>
+                <p>{text}</p>
             </div>
         </>
     );
