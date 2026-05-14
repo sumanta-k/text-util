@@ -50,6 +50,14 @@ export default function TextForm(props) {
                 >
                     Convert to LowerCase
                 </button>
+
+                <button
+                    type="button"
+                    className="mx-2 btn btn-danger"
+                    onClick={clearAll}
+                >
+                    Remove
+                </button>
             </div>
 
             <div className="container my-3">
