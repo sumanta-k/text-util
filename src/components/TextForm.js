@@ -40,6 +40,11 @@ export default function TextForm(props) {
                         rows="13"
                         value={text}
                         onChange={handleOnChange}
+                        style={{
+                            backgroundColor:
+                                props.mode === "dark" ? "grey" : "white",
+                            color: props.mode === "dark" ? "white" : "black",
+                        }}
                     ></textarea>
                 </div>
                 <button
