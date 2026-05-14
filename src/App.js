@@ -20,6 +20,7 @@ function App() {
                 <TextForm
                     heading="Put Text Over Here"
                     title="Text To Analyze"
+                    mode={mode}
                 />
                 {/* <About /> */}
             </div>
