@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar.js";
 import TextForm from "./components/TextForm.js";
-import About from "./components/About.js";
+// import About from "./components/About.js";
+import UploadFile from "./components/UploadFile.js";
+
 function App() {
     const [mode, setMode] = useState("light"); // Whether dark mode is enabled or NOT
     const toggleMode = () => {
@@ -30,6 +32,7 @@ function App() {
                 />
                 {/* <About /> */}
             </div>
+            <UploadFile />
         </>
     );
 }
