@@ -87,6 +87,6 @@ Navbar.propTypes = {
 };
 
 Navbar.defaultProps = {
-    title: "harumi",
-    about: "anime watch",
+    title: "user",
+    about: "A navbar",
 };
